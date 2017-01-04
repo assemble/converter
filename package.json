@@ -4,7 +4,7 @@
   "description": "Convert between XML, JSON and YAML, from one format to another.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
@@ -25,19 +25,19 @@
     "url": "https://github.com/assemble/converter/issues"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
+    "grunt": "~1.0.1",
     "grunt-mocha-test": "~0.8.1",
-    "grunt-contrib-jshint": "~0.7.2",
-    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~1.1.0",
+    "grunt-contrib-watch": "~1.0.0",
     "grunt-readme": "~0.4.5",
-    "chai": "~1.8.1"
+    "chai": "~3.5.0"
   },
   "dependencies": {
-    "lodash": "~2.4.1",
-    "plist": "~0.4.3",
-    "yamljs": "~0.1.4",
-    "csv": "~0.4.0",
+    "lodash": "~4.17.4",
+    "plist": "~2.0.1",
+    "yamljs": "~0.2.8",
+    "csv": "~1.1.0",
     "pretty-data": "~0.40.0",
-    "xml2js": "~0.4.1"
+    "xml2js": "~0.4.17"
   }
 }
